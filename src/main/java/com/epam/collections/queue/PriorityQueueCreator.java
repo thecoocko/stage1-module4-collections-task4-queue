@@ -2,8 +2,6 @@ package com.epam.collections.queue;
 
 import java.util.*;
 
-/**Implement the program which gets two List<String>
- * and merged them into PriorityQueue<String> alphabetically in reverse order.*/
 public class PriorityQueueCreator {
     public PriorityQueue<String> createPriorityQueue(List<String> firstList, List<String> secondList) {
         PriorityQueue<String> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
